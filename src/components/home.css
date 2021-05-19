@@ -1,0 +1,150 @@
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(../clockback.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.left-wrapper{
+    background-color: rgb(116, 165, 221);
+    width: 40vw;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.schedule-heading{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:rgb(15, 5, 107);
+    margin-bottom: -.75rem;
+}
+.search-input{
+    opacity: 100%;
+    margin: .5rem 1rem;
+    padding: .5rem;
+    width: 15rem;
+    border: none;
+    border-radius: .25rem;
+}
+
+.submit-btn{
+    width: 4rem;
+    padding: .5rem .25rem;
+    border-radius: .25rem;
+    border: none;
+    margin: .25rem;
+    transition: 300ms;
+}
+.submit-btn:hover{
+    background-color: rgb(52, 52, 161);
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(240, 240, 245);
+}
+
+.help{
+    color: rgb(36, 9, 71);
+    font-size: .75rem;
+    
+}
+
+.each-task{
+    padding: .25rem;
+    margin: .25rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    cursor: pointer;
+}
+
+i{
+    font-size: 1rem;
+    margin: 0  .25rem .25rem;
+    transition: 300ms;
+    color: red;
+   
+}
+i:hover{
+    color: rgb(206, 194, 31);
+    cursor: pointer;
+}
+
+.task-check-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: .25rem;
+}
+
+
+
+.right-wrapper{
+    background-color: rgb(184, 171, 144);
+    width: 60vw;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.pinned-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-task-heading{
+    font-weight: bold;
+    color: rgb(48, 56, 5);
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: 1rem 0.25rem auto;
+}
+.current-task{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    color: rgb(15, 5, 107);
+    font-weight: bold;
+}
+
+.unpin-btn{
+    width: 3rem;
+    height: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+.clock{
+    opacity: 100%;
+    background-color: rgb(135, 161, 201);
+    padding: 2.5rem;
+    margin:0.25rem 2rem 2rem;
+    font-size: 7rem;
+    border-radius: 2rem;
+}
+.timer-heading{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.motivation{
+    color: darkblue;
+    font-size: .75rem;
+    font-weight: bold;
+}
+.check-box{
+    margin-left: 2rem;
+    background-color: red;
+    
+}
+.check-box:hover{
+ cursor: pointer;
+}
