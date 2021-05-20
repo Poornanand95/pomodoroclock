@@ -11,11 +11,13 @@ function Home() {
   }
 
   function handleAddBtn(e) {
-    e.preventDefault();
-    console.log('aur kya hal chal');
-    makeHTML();
-    console.log(typeof taskvalue.value);
-    taskvalue.value = '';
+    if (taskvalue.value) {
+      e.preventDefault();
+      console.log('aur kya hal chal');
+      makeHTML();
+      console.log(typeof taskvalue.value);
+      taskvalue.value = '';
+    }
   }
 
   function makeHTML() {
