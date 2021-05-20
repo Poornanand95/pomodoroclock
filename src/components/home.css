@@ -8,9 +8,9 @@
     background-size: contain;
 }
 .left-wrapper{
-    background-color: rgb(116, 165, 221);
+    background-color: rgba(116, 165, 221,0.7);
     width: 40vw;
-    opacity: 70%;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@
     margin-bottom: -.75rem;
 }
 .search-input{
-    opacity: 100%;
+   
     margin: .5rem 1rem;
     padding: .5rem;
     width: 15rem;
@@ -85,9 +85,9 @@ i:hover{
 
 
 .right-wrapper{
-    background-color: rgb(184, 171, 144);
+    background-color: rgba(184, 171, 144,0.7);
     width: 60vw;
-    opacity: 70%;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,7 +123,7 @@ i:hover{
     padding: 0;
 }
 .clock{
-    opacity: 100%;
+    
     background-color: rgb(135, 161, 201);
     padding: 2.5rem;
     margin:0.25rem 2rem 2rem;
